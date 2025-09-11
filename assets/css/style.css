@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url('../images/arriere-plan-de-jeu-au-neon.jpg'), url('../images/half-fox-half-robot-fantasy-style.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px, cover;
+    background-position: top, center;   
+    /* pour fixer les images lors du scroll */
+    background-attachment: fixed;
+}
+
+h1:hover { 
+    /* au survol du h1 */
+    cursor: pointer; 
+    color: blue;
+    font-family: 'Roboto';
+}
+
+h2 {
+    color: green;
+}
+
+@font-face {
+    font-family: "Rachel brown";
+    src: url(../fonts/RachelBrown.woff);
+    /* au cas ou un navi ne prendrais pas en charge */
+    src: url(../fonts/RachelBrown.ttf);
+    src: url(../fonts/RachelBrown.otf);
+}
+
+p {
+    font-family: "Rachel brown", serif;
+    font-size: 20px;
+    color: purple;
+}

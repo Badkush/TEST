@@ -1,0 +1,10 @@
+section {
+    /* utilisation de flexbox avec la fonction grille */
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,150px);
+    /* cibler une ligne */
+    grid-row: 1 / span 2;
+    /* espace entre chaque block */
+    gap: 10px;
+}
